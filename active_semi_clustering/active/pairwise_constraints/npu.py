@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-from .example_oracle import MaximumQueriesExceeded
+from ...exceptions import MaximumQueriesExceeded
 from active_semi_clustering.exceptions import EmptyClustersException
 
 

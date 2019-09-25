@@ -1,6 +1,6 @@
 import numpy as np
 
-from .example_oracle import MaximumQueriesExceeded
+from ...exceptions import MaximumQueriesExceeded
 from .explore_consolidate import ExploreConsolidate
 
 

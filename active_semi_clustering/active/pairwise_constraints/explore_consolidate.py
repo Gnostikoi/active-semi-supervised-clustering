@@ -1,7 +1,7 @@
 import numpy as np
 
 from .helpers import get_constraints_from_neighborhoods
-from .example_oracle import MaximumQueriesExceeded
+from ...exceptions import MaximumQueriesExceeded
 
 
 class ExploreConsolidate:

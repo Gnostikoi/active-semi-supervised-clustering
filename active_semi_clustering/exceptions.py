@@ -8,3 +8,6 @@ class EmptyClustersException(Exception):
 
 class InconsistentConstraintsException(Exception):
     pass
+
+class MaximumQueriesExceeded(Exception):
+    pass
